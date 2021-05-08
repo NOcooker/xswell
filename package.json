@@ -1,0 +1,45 @@
+{
+  "name": "xswell",
+  "version": "0.0.1",
+  "description": "性能监测工具",
+  "main": "lib/umd.min.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc && npm run build:umd",
+    "build:umd": "rollup -c",
+    "version": "standard-version",
+    "release": "sh build/release.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NOcooker/xswell.git"
+  },
+  "keywords": [
+    "xswell",
+    "performance"
+  ],
+  "author": "linwens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NOcooker/xswell/issues"
+  },
+  "homepage": "https://github.com/NOcooker/xswell#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "@types/jest": "^26.0.20",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "rollup": "^2.39.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "standard-version": "^9.1.1",
+    "ts-jest": "^26.5.2",
+    "typescript": "^4.2.2",
+    "uglify-es": "^3.3.9"
+  }
+}
