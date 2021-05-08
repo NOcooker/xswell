@@ -1,6 +1,6 @@
 {
   "name": "xswell",
-  "version": "0.0.2",
+  "version": "0.0.21",
   "description": "性能监测工具",
   "main": "lib/umd.min.js",
   "types": "lib/index.d.ts",
