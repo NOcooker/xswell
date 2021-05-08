@@ -1,9 +1,8 @@
-hzxdf前端性能监测平台
-
 logo预留
 
-hzxdf前端性能监测平台 - xswell
+hzxdf前端性能监测工具 - xswell
 =========================
+[![Build Status](https://travis-ci.com/NOcooker/xswell.svg?branch=master)](https://travis-ci.com/NOcooker/xswell)
 
 ## 源自
 
