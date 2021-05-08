@@ -1,5 +1,5 @@
 
-sudo: false
+# sudo: false
 language: node_js
 node_js: 12
 
@@ -9,8 +9,8 @@ before_deploy:
 deploy:
   - provider: npm
     email: "$NPM_EMAIL"
-    api_key: "$NPM_TOKEN"
-    skip_cleanup: true # 在运行测试之后且在发行之前，Travis CI会清理所有其他文件和所做的更改， 默认false标识要清理
+    api_token: "$NPM_TOKEN"
+    cleanup: true # 在运行测试之后且在发行之前，Travis CI会清理所有其他文件和所做的更改， 默认false标识要清理
     on:
       tags: true
     tag: latest # 给npm包添加版本
