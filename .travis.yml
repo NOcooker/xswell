@@ -3,6 +3,12 @@
 language: node_js
 node_js: 12
 
+script:
+  - npm run build
+
+after_success:
+  - echo "build is success"
+
 # 部署相关
 before_deploy:
   - npm run build # 生成npm包
