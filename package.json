@@ -4,6 +4,9 @@
   "description": "性能监测工具",
   "main": "lib/umd.min.js",
   "types": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "tsc -w",
     "build": "tsc && npm run build:umd",
