@@ -1,6 +1,6 @@
 {
   "name": "@nocooker/xswell",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "性能监测工具",
   "main": "lib/umd.min.js",
   "types": "lib/index.d.ts",
