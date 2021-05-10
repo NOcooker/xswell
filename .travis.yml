@@ -16,6 +16,7 @@ deploy:
   - provider: npm
     email: $NPM_EMAIL
     api_token: $NPM_API_TOKEN
+    access: "public"
     cleanup: true # 在运行测试之后且在发行之前，Travis CI会清理所有其他文件和所做的更改， 默认false标识要清理
     on:
       tags: true
