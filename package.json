@@ -1,5 +1,5 @@
 {
-  "name": "xswell",
+  "name": "@nocooker/xswell",
   "version": "0.0.21",
   "description": "性能监测工具",
   "main": "lib/umd.min.js",
